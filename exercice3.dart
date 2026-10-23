@@ -9,6 +9,6 @@ void main() {
   try {
     verifierMotdepasse("abc");
   } catch (e) {
-    print("Erreur : $e");
+    print("Erreur de validation : $e");
   }
 }
